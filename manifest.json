@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 3,
+  "name": "Dopemine Block",
+  "version": "1.0",
+  "permissions": ["storage", "webRequest", "webRequestBlocking"],
+  "host_permissions": ["<all_urls>"],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
